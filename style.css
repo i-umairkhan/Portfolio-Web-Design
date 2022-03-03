@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+.NavBar{
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 60px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+.Logo{
+    font-size: 30px;
+    color:rgb(255, 65, 65) ;
+    font-weight: 700;
+}
+
+.Links{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Links > a{
+    font-weight: 510;
+    margin-right: 40px;
+    letter-spacing: 1px;
+    color: rgb(95, 95, 95);
+    cursor: pointer;
+}
+
+
+.Languges{
+    display: flex;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 510;
+    letter-spacing: 1px;
+    color: rgb(95, 95, 95);
+    cursor: pointer;
+}
+
+.HomePage{
+    display: flex;
+    height: 86.5vh;
+    align-items: center;
+    justify-content: space-around
+}
+
+
+
+.InfoBox{
+    font-family: 'Poppins', sans-serif;
+}
+
+.Hello{
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: rgb(83, 83, 83);
+}
+
+
+.Name{
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.Description{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: rgb(83, 83, 83);
+}
+
+.Image{
+    height: 300px;
+    width: 500px;
+}
+
+
+.Button{
+    background-color:rgb(255, 65, 65) ;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px 30px;
+    border: none;
+    color: rgb(228, 228, 228);
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+
+.AboutPage{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.AboutAbout{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.AboutHeading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.AboutMe{
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    width: 500px;
+    letter-spacing: 1px;
+}
+
+.AboutSection > p{
+    margin-top: 15px;
+}
+
+.Man{
+    height: 230px;
+}
+
+.SkillSections{
+    color: black;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom: 50px;
+}
+
+
+.SkillHeading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+
+.Skills{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+}
+
+
+.ContactPage{
+    height: 100vh;
+    display: grid;
+    /* align-content: center; */
+    justify-items: center;
+}
+
+.ContactHeading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    align-content: flex-start;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.Contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+
+.ContactInfo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.ContactInfo > p{
+    margin-top: 15px;
+}
+
+.ContactForm{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: 400px;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: rgb(95, 95, 95);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ContactForm > div{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.ContactForm > input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid rgb(131, 131, 131);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    outline: none;
+}
